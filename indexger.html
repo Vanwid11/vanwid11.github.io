@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Vanessa Widmer's Webseite</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.mySlides {display:none;}
+			</style>
+	</head>
+	<body class="is-preload">
+	
+			<div style='float: right;'>
+				<a href="index.html"><button class="button button1">Englisch</button></a>
+	
+				
+			</div>
+
+	</div>
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+				<nav id="nav">
+					<a href="#" class="icon solid fa-home"><span>Home</span></a>
+					<a href="#myworld" class="icon solid fa-globe"><span>Meine Welt</span></a>
+					<a href="#contact" class="icon solid fa-envelope"><span>Kontakt</span></a>
+					<a href="https://www.instagram.com/_vane._03/?hl=de" class="icon brands fa-instagram"><span>Instagram</span></a>
+					<a href="https://www.linkedin.com/in/vanessa-widmer-4a0054216/" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+					<a href="https://github.com/Vanwid11" class="icon brands fa-github"><span>GitHub</span></a>
+					
+				</nav>
+
+			
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Vanessa Widmer</h1>
+									<p>IMS-Schülerin</p>
+								</header>
+								  <a href="#myworld" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+
+									<div class="w3-content w3-section" style="max-width:500px">
+										<img class="mySlides w3-animate-left" src="images/me1.jpg" style="width:100%">
+										<img class="mySlides w3-animate-left" src="images/me2.jpg" style="width:100%">
+										<img class="mySlides w3-animate-left" src="images/me3.jpg" style="width:100%">
+										
+									  </div>
+									  
+									  <script>
+									  var myIndex = 0;
+									  carousel();
+									  
+									  function carousel() {
+										var i;
+										var x = document.getElementsByClassName("mySlides");
+										for (i = 0; i < x.length; i++) {
+										  x[i].style.display = "none";  
+										}
+										myIndex++;
+										if (myIndex > x.length) {myIndex = 1}    
+										x[myIndex-1].style.display = "block";  
+										setTimeout(carousel, 5000);    
+									  }
+									  </script>
+									
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="myworld" class="panel">
+								<header>
+									<h2>Willkommen zu meiner Welt!</h2>
+								</header>
+								<p>
+								Auf dieser Webseite lernst du mich besser kennen.
+								</p>
+								<!--make cute buttons for each segment-->
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="aboutmeger.html" class="image fit"><img src="images/übermich.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="interestsger.html" class="image fit"><img src="images/interessen.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="achievementsger.html" class="image fit"><img src="images/leistung.jpg" alt=""></a>
+										</div>
+									
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+					
+								<article id="contact" class="panel">
+									<header>
+										<h2>Kontakt</h2>
+									</header>
+									<p><i class="fas fa-user">&nbsp;</i>Name:&nbsp; Vanessa Widmer</p>
+									<p><i class="fas fa-envelope">&nbsp;</i>E-Mail: &nbsp;vanessa.widmer@students.ksba.ch</p>
+									<p><i class="fas fa-phone-alt">&nbsp;</i>Handy: &nbsp;+41 79 370 79 89</p>
+									
+									</form>
+								</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Vanessa Widmer</li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
